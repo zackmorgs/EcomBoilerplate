@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using EcomServer.Areas.Identity;
 using EcomServer.Data;
 using EcomServer.Services;
+using EcomServer.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

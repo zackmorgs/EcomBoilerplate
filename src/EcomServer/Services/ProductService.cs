@@ -1,4 +1,5 @@
 using EcomServer.Data;
+using EcomServer.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcomServer.Services
