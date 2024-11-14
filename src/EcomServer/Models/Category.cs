@@ -11,8 +11,11 @@ public class Category {
 
     int Id { get; set; }
     
-    string Name { get; set; } = String.Empty;
+    public string Name { get; set; } = String.Empty;
 
     List<Product> Products { get; set; } = new List<Product>();
 
+    // Computed URL property based on Name
+    [NotMapped] // Indicates that this property is not mapped to a database column
+    public string Url => "/category/" + Name.Replace(" ", "-").ToLower();
 }
