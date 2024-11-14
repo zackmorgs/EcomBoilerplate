@@ -1,4 +1,7 @@
-﻿@code {
+﻿@using EcomServer.Services
+
+
+@code {
     private bool isMenuOpen = false;
 
     private void ToggleMenu()
@@ -8,7 +11,7 @@
 }
 
 <nav id="nav_menu" class="absolute top-0 right-0 left-0"> 
-    <div class="container md:flex md:flex-row  md:items-center md:justify-between">
+    <div class="container md:flex md:flex-row  md:items-center md:justify-between mx-auto">
         <div id="nav_bar" class="flex items-center justify-between p-2">
             <h1 class="text-2xl font-bold">Ecom</h1>
             <button class="block md:hidden p-2 text-gray-400 rounded hover:text-white focus:outline-none focus:ring-2 focus:ring-white" @onclick="@ToggleMenu">
@@ -33,6 +36,9 @@
             <li><a href="/account" class="block hover:text-gray-400">Account</a></li>
             <li><a href="/products" class="block hover:text-gray-400">Products</a></li>
             <li><a href="/cart" class="block hover:text-gray-400">Cart</a></li>
+        </ul>
+        <ul  class="@($"flex flex-col bg-white md:flex-row md:visible p-2 space-y-2 md:space-y-0 md:space-x-4 md:bg-transparent {(isMenuOpen ? "" : "invisible")}")">
+
         </ul>
     </div>
 </nav>
