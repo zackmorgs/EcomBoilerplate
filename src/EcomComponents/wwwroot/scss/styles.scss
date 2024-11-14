@@ -19,3 +19,16 @@
     bottom:0;
     left:0;
 }
+
+.btn {
+   @apply px-6; 
+   @apply py-4;
+   @apply inline-flex;
+   @apply flex-row;
+   @apply items-center;
+   @apply justify-center;
+   @apply text-center;
+   @apply rounded;
+   @apply text-white;
+   @apply bg-slate-500;
+}

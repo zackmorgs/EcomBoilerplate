@@ -1,0 +1,13 @@
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+
+    [Parameter]
+    public string Href { get; set; } = "#"; // URL to navigate to
+    
+    [Parameter]
+    public string CssClass { get; set; } = ""; // Additional CSS classes
+}
+<a href="@Href" class="btn @CssClass">
+    @ChildContent
+</a>

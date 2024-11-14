@@ -1,0 +1,34 @@
+@using EcomComponents.Components
+
+@page "/admin/products/add-product";
+
+<PageTitle>Add Product</PageTitle>
+
+<section>
+    <Hero>
+        <h1 class="text-4xl mt-8">Add Product</h1>
+    </Hero>
+</section>
+<section>
+    <Container> 
+        <form id="add_product"#nav_items>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter product name">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" rows="3" placeholder="Enter product description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" class="form-control" id="price" placeholder="Enter product price">
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="file" class="form-control-file" id="image">
+            </div>
+            <Button CssClass="btn-primary">Submit</Button>
+        </form>
+    </Container>
+</section>

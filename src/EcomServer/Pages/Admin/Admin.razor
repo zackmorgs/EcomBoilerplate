@@ -1,0 +1,20 @@
+@page "/admin"
+@using EcomComponents.Components
+
+<PageTitle>Index</PageTitle>
+
+<section>
+    <Hero>
+        <h1 class="text-4xl mt-8">Admin Page</h1>
+    </Hero>
+</section>
+<section>
+    <div class="container mx-auto">
+        <div class="p-2">
+            <h2 class="text-2xl">Products</h2>
+            <LinkButton Href="/admin/products/add-product">
+                Add a Product
+            </LinkButton>
+        </div>
+    </div>
+</section>
