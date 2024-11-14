@@ -21,8 +21,8 @@ yarn-error.log*
 # Generated files
 dist/
 out/
-wwwroot/css/styles.css
-wwwroot/css/*.map
+./src/EcomComponents/wwwroot/styles.css
+./src/EcomComponents/wwwroot/styles.css.map
 
 # Environment variables
 .env
@@ -59,3 +59,6 @@ coverage/
 *.testresults/
 TestResult.xml
 TestResult/
+
+# run your own migrations!
+./src/EcomServer/Migrations

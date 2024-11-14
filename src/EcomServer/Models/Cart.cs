@@ -10,7 +10,7 @@ public class Cart {
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
 
-    public required User User { get; set; }
+    public required int UserId { get; set; }
 
     // this works great for an empty cart.
     public List<Product> Products { get; set; } = new List<Product>();

@@ -15,8 +15,7 @@ public class User : IdentityUser
     
     public List<Order> Orders { get; set; } = new List<Order>();
 
-    public Cart Cart { get; set; }
-    
+    public int CartId { get; set; }
 
     // Method to assign admin privileges
     public void GrantAdminPrivileges()
