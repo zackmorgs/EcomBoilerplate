@@ -1,0 +1,7 @@
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}
+<header class="hero py-4 px-2">
+    @ChildContent
+</header>

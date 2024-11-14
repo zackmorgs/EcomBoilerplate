@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13B47DB0-DC3A-4CBD-987B-47CBAED8D58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomComponents", "src\EcomComponents\EcomComponents.csproj", "{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomServer", "src\EcomServer\EcomServer.csproj", "{D878DE5C-401B-466D-AA9C-721F78335B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D878DE5C-401B-466D-AA9C-721F78335B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D878DE5C-401B-466D-AA9C-721F78335B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D878DE5C-401B-466D-AA9C-721F78335B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D878DE5C-401B-466D-AA9C-721F78335B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6245BB8B-D527-4F9A-982C-E1EEFB95FFCA} = {13B47DB0-DC3A-4CBD-987B-47CBAED8D58D}
+		{D878DE5C-401B-466D-AA9C-721F78335B56} = {13B47DB0-DC3A-4CBD-987B-47CBAED8D58D}
+	EndGlobalSection
+EndGlobal
