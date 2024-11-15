@@ -20,6 +20,15 @@
     left:0;
 }
 
+.hero {
+   
+    @apply container;
+    @apply py-4;
+    @apply px-2;
+    @apply mx-auto;
+    @apply min-h-40;
+}
+
 .btn {
    @apply px-6; 
    @apply py-4;
@@ -32,3 +41,4 @@
    @apply text-white;
    @apply bg-slate-500;
 }
+

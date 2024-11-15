@@ -1,3 +1,5 @@
+.vs/
+
 # Ignore .NET build and publish outputs
 bin/
 obj/

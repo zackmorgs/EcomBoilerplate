@@ -2,13 +2,13 @@
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
    
-    [Parameter]
-    public Type Type { get; set; }
+    @* [Parameter]
+    public Type Type { get; set; } *@
 
     [Parameter]
     public string CssClass { get; set; } = ""; // Additional CSS classes
 }
 
-<button type="submit" class="btn @CssClass" type="@Type">
+<button type="submit" class="btn @CssClass">
     @ChildContent
 </button>

@@ -50,7 +50,7 @@
         </div>
 
         <!-- Conditionally render "hidden" class on the #nav_items container -->
-        <div id="nav_items" class="@($"md:flex bg-white {(isMenuOpen ? "" : "hidden")}")">
+        <div id="nav_items" class="@($"md:flex bg-white {(isMenuOpen ? "" : "hidden")} md:bg-transparent")">
             <ul
                 class="flex flex-col md:flex-row md:flex p-2 space-y-2 md:space-y-0 md:space-x-4 md:bg-transparent">
                 <li><a href="/" class="block hover:text-gray-400">Home</a></li>
