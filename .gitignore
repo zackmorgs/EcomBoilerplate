@@ -23,8 +23,7 @@ yarn-error.log*
 # Generated files
 dist/
 out/
-./src/EcomComponents/wwwroot/styles.css
-./src/EcomComponents/wwwroot/styles.css.map
+src/EcomComponents/wwwroot/css/
 
 # Environment variables
 .env
